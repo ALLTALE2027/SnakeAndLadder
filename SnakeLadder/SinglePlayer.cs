@@ -62,7 +62,8 @@ namespace SnakeLadder
                 track.Add(position);
             }
 
-
+            
+           
             Console.WriteLine("number of times the dice was played to win the game " + throwNum);
             Console.WriteLine();
             Console.WriteLine(" positions after each throw");

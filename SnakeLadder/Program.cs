@@ -8,6 +8,7 @@
 
             Console.WriteLine("Select the choices from below");
             Console.WriteLine("1. For singe player");
+            Console.WriteLine("2. For two players");
             int ans=int.Parse(Console.ReadLine());
 
 
@@ -15,6 +16,10 @@
             {
                 case 1: SinglePlayer single = new SinglePlayer();
                          single.Game();
+                    break;
+
+                case 2: TwoPlayer twoPlayer = new TwoPlayer();
+                          twoPlayer.Game();
                     break;
 
                 default: Console.WriteLine("Enter the correct choice");
